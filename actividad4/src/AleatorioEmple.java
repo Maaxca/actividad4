@@ -13,6 +13,7 @@ public class AleatorioEmple {
 		File fichero = new File("AleatorioEmple.dat");
 		RandomAccessFile file = new RandomAccessFile(fichero, "r");
 		char cad[] = new char[10], aux;
+		System.out.println("Que tal");
 		String nom;
 		double salario;
 		int pos, num, dep;
